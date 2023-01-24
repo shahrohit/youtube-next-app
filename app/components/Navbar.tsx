@@ -7,7 +7,7 @@ type Props = {}
 const Navbar = (props: Props) => {
   const [search, setSearch] = useState<string>("")
   return (
-    <header className='w-full px-2 md:px-4  fixed top-0 left-0'>
+    <header className='w-full px-2 md:px-4 sticky top-0 left-0 z-50 bg-white'>
       <div className='flex justify-between items-center gap-6 h-14 w-full px-2'>
         {/* icon */}
         <div className='flex justify-between items-center'>
